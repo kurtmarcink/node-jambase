@@ -1,0 +1,29 @@
+{
+  "name": "node-jambase",
+  "version": "3.0.0",
+  "description": "JamBase API client library for node.js",
+  "main": "./lib/index.js",
+  "keywords": [
+    "jambase"
+  ],
+  "homepage": "https://github.com/kurtmarcink/node-jambase",
+  "author": "Kurt Marcinkiewicz <kurt.marcink@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/kurtmarcink/node-jambase/raw/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kurtmarcink/node-jambase"
+  },
+  "bugs": {
+    "url": "https://github.com/kurtmarcink/node-jambase/issues"
+  },
+  "dependencies": {
+    "request": "^2.51.0"
+  },
+  "devDependencies": {},
+  "main": "./lib/index.js"
+}
