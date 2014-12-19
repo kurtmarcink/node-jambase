@@ -1,4 +1,4 @@
-JamBase API for Node.js
+JamBase API for Node.js [![NPM](https://nodei.co/npm/node-jambase.png?mini=true)](https://nodei.co/npm/node-jambase/)
 ======================================
 
 
@@ -7,7 +7,7 @@ JamBase API for Node.js
 
 ## Configuration
 
-You will need valid JamBase API Key. Directions for obtaining one can be found [here](http://developer.jambase.com/).
+You will need a valid JamBase API Key. Directions for obtaining one can be found [here](http://developer.jambase.com/).
 
 ````
 var JamBase = require('node-jambase');
@@ -20,6 +20,9 @@ Add your credentials accordingly.  I would use environment variables to keep you
 ````
 var client = new JamBase(process.env.JAMBASE_API_KEY);
 ````
+## Installation
+
+`npm install node-jambase`
 
 ## Usage
 
