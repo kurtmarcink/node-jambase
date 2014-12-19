@@ -2,7 +2,7 @@
 var JamBase = require('../lib/index.js');
 
 // VARS //
-var client = new JamBase('xfs86eemkgu5kw88h6rtq2ca');
+var client = new JamBase(process.env.JAMBASE_API_KEY);
 var today = new Date().toISOString();
 var tomorrow = new Date();
 tomorrow.setDate(tomorrow.getDate() + 1);
