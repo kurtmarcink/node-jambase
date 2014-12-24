@@ -1,4 +1,4 @@
-# JamBase API for Node.js [https://nodei.co/npm/node-jambase.png?mini=true](https://nodei.co/npm/node-jambase/)
+# JamBase API for Node.js
 
 [node-jambase](https://github.com/kurtmarcink/node-jambase) aims to provide a client library for the [JamBase V3 REST API](http://developer.jambase.com/).
 
