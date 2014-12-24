@@ -1,6 +1,6 @@
 {
   "name": "node-jambase",
-  "version": "3.0.3",
+  "version": "1.0.0",
   "description": "JamBase API client library for node.js",
   "main": "./lib/index.js",
   "keywords": [

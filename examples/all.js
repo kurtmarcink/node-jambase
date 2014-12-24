@@ -8,7 +8,7 @@ var tomorrow = new Date();
 tomorrow.setDate(tomorrow.getDate() + 1);
 tomorrow = tomorrow.toISOString();
 
-client.getEventById(2433538, function(err, payload) {
+client.getEventBy_id(2433538, function(err, payload) {
     console.log(err);
     console.log(payload);
 });
@@ -83,27 +83,27 @@ client.getEventListBy_venueId_startDate_endDate("86178", today, tomorrow, 0,  fu
     console.log(payload);
 });
 
-client.getEventListBy_artistName("blink-182",  function(err, payload) {
+client.getArtistBy_name("blink-182", 0,  function(err, payload) {
     console.log(err);
     console.log(payload);
 });
 
-client.getEventListBy_artistId(62478,  function(err, payload) {
+client.getArtistBy_id(62478, 0,  function(err, payload) {
     console.log(err);
     console.log(payload);
 });
 
-client.getEventListBy_venueName("House of Blues",  function(err, payload) {
+client.getVenuesBy_name("House of Blues", 0,  function(err, payload) {
     console.log(err);
     console.log(payload);
 });
 
-client.getEventListBy_venueId("86178",  function(err, payload) {
+client.getVenuesBy_zipCode("02115", 0,  function(err, payload) {
     console.log(err);
     console.log(payload);
 });
 
-client.getEventListBy_zipCode("02215",  function(err, payload) {
+client.getVenuesBy_id("86178", 0,  function(err, payload) {
     console.log(err);
     console.log(payload);
 });
